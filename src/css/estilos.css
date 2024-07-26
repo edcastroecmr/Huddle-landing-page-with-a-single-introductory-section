@@ -21,12 +21,19 @@
 .main .mockups{
     width: 100%;
     margin-left: 69px;
-    flex: 0 1 1fr;
+    margin-top: 50px;
+  
 }
 .main .textos{
     margin-right: 69px ;
     color: #FFFFFF;
-    flex: 0 1 1fr;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 86px;
+    margin-left: 55px;
+
+   
     
 
 }
@@ -34,21 +41,19 @@
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-top: 127px;
-    padding: 0 5%;
+   
 }
 .main .textos .descricao{
     color: #E0D2FD;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    padding: 25px 6% 0 6%;
+    padding-top: 25px ;
 
 }
 .main .botao{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    color: hsl(257, 40%, 49%);
-    margin: 35px 0 230px 6% ;
+    color: hsl(257, 40%, 49%); 
     background-color: white;
     border-radius: 50px;
     max-width: 200px;
@@ -58,6 +63,7 @@
     font-size: 18px;
     box-shadow: 0px 0px 7px rgb(0, 0, 0);
     transition: 0.4s ease-in-out;
+    margin-top: 35px ;
 }
 .main .botao:hover{
     cursor: pointer;
